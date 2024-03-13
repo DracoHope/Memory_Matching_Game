@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta
+      name="description"
+      content="Play the classic memory game with your favorite themes. Be as fast as possible and spare your clicks!"
+    />
+    <meta name="keywords" content="Memory" />
+    <meta name="author" content="Rémy Beumier" />
+
+    <meta property="og:title" content="Memory" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="https://beumsk.github.io/Memory" />
+    <meta
+      property="og:image"
+      content="https://beumsk.github.io/Memory/cover.jpg"
+    />
+    <meta
+      property="og:image:secure_url"
+      content="https://beumsk.github.io/Memory/cover.jpg"
+    />
+    <meta
+      property="og:description"
+      content="Play the classic memory game with your favorite themes. Be as fast as possible and spare your clicks!"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Memory Match Game</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>MEMORY Matching Games</h1>
+    </header>
+
+    <section class="main">
+      <div class="box play"></div>
+      <div class="box play"></div>
+      <div class="box play"></div>
+      <div class="box play"></div>
+      <div class="box play"></div>
+      <div class="box play"></div>
+      <div class="box play"></div>
+      <div class="box play"></div>
+      <div class="box play"></div>
+      <div class="box play"></div>
+      <div class="box play"></div>
+      <div class="box play"></div>
+      <div class="box play"></div>
+      <div class="box play"></div>
+      <div class="box play"></div>
+      <div class="box play"></div>
+      <div class="box play"></div>
+      <div class="box play"></div>
+      <div class="box play"></div>
+      <div class="box play"></div>
+
+      <div id="state">
+        <span id="time">0</span>
+        <span id="score">0</span>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Created by
+        <a href="https://remybeumier.be" target="_blank">Rémy Beumier</a>
+      </p>
+    </footer>
+
+    <section id="pre" class="">
+      <div id="themes">
+        <h2>Choose your theme</h2>
+        <p id="landmark" class="themes" title="landmark">
+          Singapore Historical Landmark
+        </p>
+        <p id="pokemon" class="themes" title="Pokemon">Pokemon</p>
+        <p id="starwars" class="themes" title="Star Wars">Star Wars</p>
+        <p id="lotr" class="themes" title="Lord of the Ring">
+          Lord of the Ring
+        </p>
+        <p id="disney" class="themes" title="Disney">Disney</p>
+        <p id="pixar" class="themes" title="Pixar">Pixar</p>
+        <p id="harrypotter" class="themes" title="Harry Potter">Harry Potter</p>
+      </div>
+    </section>
+
+    <section id="post" class="hidden">
+      <div>
+        <h2>BRAVO !</h2>
+        <p id="final"></p>
+        <br />
+        <p>
+          <a id="again">Play Again !</a>
+        </p>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
